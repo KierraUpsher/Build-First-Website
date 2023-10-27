@@ -1,0 +1,236 @@
+.page {
+    background-color: #c384ff;
+}
+
+#bestPups {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar {
+    background-color: #ff91e5;
+    display: flex;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 4px;
+    font-size: x-large;
+    padding: 10px 100px 10px 100px;
+}
+
+.navBarHighlight {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px 10px 80px;
+}
+
+#home_1 {
+    color: black;
+    font-weight: bold;
+}
+
+#yours_1 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#info_1 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#more_1 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#home_2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#yours_2 {
+    color: black;
+    font-weight: bold;
+}
+
+#info_2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#more_2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#home_3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#yours_3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#info_3 {
+    color: black;
+    font-weight: bold;
+}
+
+#more_3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#home_4 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#yours_4 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#info_4 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#more_4 {
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+#doggos {
+    margin: 0% 10% 0% 10%;
+}
+
+#pyrPic {
+    max-width: 100%;
+    height: auto;
+}
+
+#pyr {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#goldiePic {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#goldie {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#pompomPic {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#pompom {
+    margin: 0px 5% 20px 5%
+}
+
+.bottomBar {
+    margin: 30px 0px 30px 0px;
+    background-color: #ff91e5;
+    display: flex;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 4px;
+    font-size: x-large;
+    color:#ff91e5;
+    padding: 10px 100px 10px 100px;
+}
+
+.fieldset {
+    margin-bottom: 76px;
+}
+
+#whichBreed {
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#other {
+    display: flex;
+    margin-top: 30px;
+}
+
+#otherBox {
+    display: flex;
+    margin-left: 30px;
+}
+
+#button {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#infoDescription {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.links {
+    margin: 0px 20% 280px 20%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+#pomskyLabel {
+    font-size: x-large;
+    text-align: center;
+}
+
+/*
+
+The following section was commented out because it causes the image to sit beside the label
+vs it's intended function which is to change the size of the image.
+
+Return to this part
+
+#pomskyPic {
+    width: 50%;
+    height: auto;
+}
+*/

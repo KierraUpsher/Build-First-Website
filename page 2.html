@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Best Pups</title>
+        <link rel="stylesheet" href="\\wsl$\Ubuntu\home\kierra\aa-projects\Build-First-Website\layout.css">
+    </head>
+
+    <body class="page">
+        <h1 class="header">
+            <a href="file://wsl%24/Ubuntu/home/kierra/aa-projects/Build-First-Website/page%201.html" id="bestPups">Best Pups</a>
+        </h1>
+
+        <div class="navBar">
+            <a href="file://wsl%24/Ubuntu/home/kierra/aa-projects/Build-First-Website/page%201.html" id="home_2">Home</a>
+            <a href="file://wsl%24/Ubuntu/home/kierra/aa-projects/Build-First-Website/page%202.html" id="yours_2">Yours</a>
+            <a href="file://wsl%24/Ubuntu/home/kierra/aa-projects/Build-First-Website/page%203.html" id="info_2">Info</a>
+            <a href="file://wsl%24/Ubuntu/home/kierra/aa-projects/Build-First-Website/page%204.html" id="more_2">More</a>
+        </div>
+
+        <h2 class="title">
+            <p>Tell Me What You Think</p>
+        </h2>
+
+        <form action="form-handling-url" method="post">
+            <fieldset class="fieldset">
+                <h2 id="yourName">
+                    <p>Your Name</p>
+                </h2>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div id="chooseYourFave">
+                    <p id="whichBreed">Which breed(s) do you like?</p>
+                    <div>
+                        <input type="checkbox" id="pyreneesCheckbox" name="pyreneesCheckbox">
+                        <label for="pyreneesCheckbox">Great Pyrenees</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goldenCheckbox" name="goldenCheckbox">
+                        <label for="goldenCheckbox">Golden Retriever</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pomeranianCheckbox" name="pomeranianCheckbox">
+                        <label for="pomeranianCheckbox">Pomeranian</label>
+                    </div>
+                </div>
+                <div class="other">
+                    <input type="checkbox" id="otherCheckbox" name="otherCheckbox">
+                    <label for="other">Other</label>
+                    <label for="other" id="other">Put other breeds that you like below</label>
+                    <textarea id="otherBox" name="other"></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="button">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+        <div class="bottomBar">Love</div>
+    </body>
+</html>
