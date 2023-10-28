@@ -35,7 +35,7 @@
     font-weight: bold;
 }
 
-#yours_1 {
+#you_1 {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -59,7 +59,7 @@
     font-weight: bold;
 }
 
-#yours_2 {
+#you_2 {
     color: black;
     font-weight: bold;
 }
@@ -82,7 +82,7 @@
     font-weight: bold;
 }
 
-#yours_3 {
+#you_3 {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -105,7 +105,7 @@
     font-weight: bold;
 }
 
-#yours_4 {
+#you_4 {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -216,12 +216,92 @@
     border-width: 2px;
 }
 
+.images1-3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 8% 50px 8%;
+}
 
 #pomskyLabel {
     font-size: x-large;
-    text-align: center;
+    position: absolute;
+    top: 270px;
+    font-weight: bold;
 }
 
+#pomskyPic {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+#yorkipooLabel {
+    font-size: x-large;
+    position: absolute;
+    top: 270px;
+    font-weight: bold;
+}
+
+#yorkipooPic {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+#bullmationLabel {
+    font-size: x-large;
+    position: absolute;
+    top: 270px;
+    font-weight: bold;
+}
+
+#bullmationPic {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.images4-6 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 8% 50px 8%;
+}
+
+#corgidorLabel {
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+}
+
+#corgidorPic {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+#chuskyLabel {
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+}
+
+#chuskyPic {
+    display: flex;
+    width: 90%;
+    height: auto;
+}
+
+#chugLabel {
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+}
+
+#chugPic {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
 /*
 
 The following section was commented out because it causes the image to sit beside the label
